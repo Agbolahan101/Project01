@@ -116,7 +116,6 @@ export default function Home() {
         </div>
 
         <div className="latest-collection">
-
           <div className="latest-collection__section1">
             <img src="images/Latest Collection.svg"></img>
             <img src="images/Summer.svg"></img>
@@ -127,17 +126,26 @@ export default function Home() {
           </div>
 
           <div className="latest-collection__section2">
-            <img className="latest-collection__images1"src="images/Group 125.svg"></img>
+            <img
+              className="latest-collection__images1"
+              src="images/Group 125.svg"
+            ></img>
           </div>
 
           <div className="latest-collection__section3">
-            <img src="images/What’s the main Idea behind Wale’s G collections.svg"></img>
-            <img src="images/Wale’s G collection was founded because Wales and his colleagues found fashion at that time boring. The concept behind Wale’s G was simple by bringing variety into fashion..svg"></img>
+            <img
+              className="latest-collection__section3-img1"
+              src="images/What’s the main Idea behind Wale’s G collections.svg"
+            ></img>
+            <img  className="latest-collection__section3-img1" src="images/Wale’s G collection was founded because Wales and his colleagues found fashion at that time boring. The concept behind Wale’s G was simple by bringing variety into fashion..svg"></img>
             <img src="images/Group 122.svg"></img>
           </div>
 
           <div className="latest-collection__section4">
-            <img className="latest-collection__images4" src="images/Rectangle 2905.svg"></img>
+            <img
+              className="latest-collection__images4"
+              src="images/Rectangle 2905.svg"
+            ></img>
           </div>
         </div>
       </div>
